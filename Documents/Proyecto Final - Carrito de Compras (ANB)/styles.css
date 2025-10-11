@@ -7,16 +7,16 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #ffd6e8 0%, #ffe4f0 50%, #fff0f8 100%);
-    color: #6d4c5c;
+    background: linear-gradient(135deg, #e8d5f0 0%, #f0ead6 50%, #d4ecd9 100%);
+    color: #5a4d6d;
     min-height: 100vh;
 }
 
 /* NAVBAR ESTILO PERSONALIZADO + BOOTSTRAP */
 .navbar {
-    background: linear-gradient(135deg, #ffb3d9 0%, #ffc7e5 50%, #ffd9ef 100%) !important;
+    background: linear-gradient(135deg, #9b7ec4 0%, #a8c9a3 50%, #d4b896 100%) !important;
     padding: 20px 0;
-    box-shadow: 0 8px 32px rgba(255, 182, 217, 0.4);
+    box-shadow: 0 8px 32px rgba(155, 126, 196, 0.4);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -38,31 +38,31 @@ body {
 }
 
 .navbar-toggler {
-    border-color: rgba(255, 182, 217, 0.5);
+    border-color: rgba(155, 126, 196, 0.5);
 }
 
 .nav-link {
-    color: #ff8dc7 !important;
+    color: #7d5ba6 !important;
     font-weight: 700;
     transition: all 0.2s;
 }
 
 .nav-link:hover {
-    color: #ff6bb3 !important;
+    color: #5e4080 !important;
     transform: translateY(-2px);
 }
 
 /* BOTÓN CARRITO PERSONALIZADO */
 .btn-outline-pink {
-    color: #e83e8c;
-    border: 2px solid #e83e8c;
+    color: #7d5ba6;
+    border: 2px solid #7d5ba6;
     font-weight: 700;
     background: white;
     transition: all 0.3s ease-in-out;
 }
 
 .btn-outline-pink:hover {
-    background-color: #e83e8c;
+    background-color: #7d5ba6;
     color: white;
 }
 
@@ -87,13 +87,13 @@ body {
     margin: 30px auto;
     border-radius: 30px;
     max-width: 1200px;
-    box-shadow: 0 20px 60px rgba(255, 182, 217, 0.3);
+    box-shadow: 0 20px 60px rgba(155, 126, 196, 0.3);
     backdrop-filter: blur(10px);
 }
 
 .hero h1 {
     font-size: 64px;
-    background: linear-gradient(135deg, #ff6bb3 0%, #ff8dc7 50%, #ffb3d9 100%);
+    background: linear-gradient(135deg, #7d5ba6 0%, #6fa86f 50%, #c4a07a 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -104,7 +104,7 @@ body {
 
 .hero p {
     font-size: 24px;
-    color: #9d7889;
+    color: #7a6e8c;
     font-weight: 600;
 }
 
@@ -132,16 +132,16 @@ body {
 }
 
 .category-btn {
-    background: linear-gradient(135deg, #fff 0%, #ffe4f0 100%);
-    border: 3px solid #ffb3d9;
+    background: linear-gradient(135deg, #fff 0%, #f5f0e8 100%);
+    border: 3px solid #9b7ec4;
     padding: 15px 35px;
     border-radius: 30px;
     cursor: pointer;
     font-weight: 900;
     font-size: 16px;
-    color: #ff8dc7;
+    color: #7d5ba6;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    box-shadow: 0 4px 15px rgba(255, 182, 217, 0.2);
+    box-shadow: 0 4px 15px rgba(155, 126, 196, 0.2);
     display: flex;
     align-items: center;
     gap: 8px;
@@ -149,14 +149,14 @@ body {
 
 .category-btn:hover {
     transform: translateY(-5px) scale(1.05);
-    box-shadow: 0 8px 25px rgba(255, 182, 217, 0.4);
+    box-shadow: 0 8px 25px rgba(155, 126, 196, 0.4);
 }
 
 .category-btn.active {
-    background: linear-gradient(135deg, #ff8dc7 0%, #ffb3d9 100%);
+    background: linear-gradient(135deg, #8c6fb8 0%, #7ba87b 100%);
     color: white;
-    border-color: #ff6bb3;
-    box-shadow: 0 8px 25px rgba(255, 141, 199, 0.5);
+    border-color: #6f4d99;
+    box-shadow: 0 8px 25px rgba(125, 91, 166, 0.5);
 }
 
 /* GRILLA DE PRODUCTOS */
@@ -171,10 +171,10 @@ body {
 
 /* TARJETAS DE PRODUCTO */
 .product-card {
-    background: linear-gradient(135deg, #fff 0%, #fff5f9 100%);
+    background: linear-gradient(135deg, #fff 0%, #faf7f2 100%);
     border-radius: 25px;
     padding: 25px;
-    box-shadow: 0 15px 40px rgba(255, 182, 217, 0.25);
+    box-shadow: 0 15px 40px rgba(155, 126, 196, 0.25);
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     cursor: pointer;
     border: 3px solid transparent;
@@ -184,21 +184,21 @@ body {
 
 .product-card:hover {
     transform: translateY(-15px) scale(1.02);
-    box-shadow: 0 25px 60px rgba(255, 141, 199, 0.4);
-    border-color: #ffb3d9;
+    box-shadow: 0 25px 60px rgba(125, 91, 166, 0.4);
+    border-color: #9b7ec4;
 }
 
 .product-img {
     width: 100%;
     height: 220px;
-    background: linear-gradient(135deg, #ffe4f0 0%, #ffd6e8 50%, #ffb3d9 100%);
+    background: linear-gradient(135deg, #e8d5f0 0%, #d4ecd9 50%, #e8dbc8 100%);
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 100px;
     margin-bottom: 20px;
-    box-shadow: inset 0 4px 20px rgba(255, 107, 179, 0.2);
+    box-shadow: inset 0 4px 20px rgba(125, 91, 166, 0.2);
     position: relative;
     overflow: hidden;
 }
@@ -222,7 +222,7 @@ body {
 .product-name {
     font-size: 24px;
     font-weight: 900;
-    background: linear-gradient(135deg, #ff6bb3 0%, #ff8dc7 100%);
+    background: linear-gradient(135deg, #7d5ba6 0%, #6fa86f 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -232,7 +232,7 @@ body {
 
 .product-desc {
     font-size: 15px;
-    color: #9d7889;
+    color: #7a6e8c;
     margin-bottom: 18px;
     line-height: 1.6;
     font-weight: 500;
@@ -241,14 +241,14 @@ body {
 .product-price {
     font-size: 28px;
     font-weight: 900;
-    color: #ff6bb3;
+    color: #7d5ba6;
     margin-bottom: 18px;
-    text-shadow: 2px 2px 4px rgba(255, 107, 179, 0.2);
+    text-shadow: 2px 2px 4px rgba(125, 91, 166, 0.2);
 }
 
 .add-to-cart {
     width: 100%;
-    background: linear-gradient(135deg, #ff8dc7 0%, #ffb3d9 50%, #ffc7e5 100%);
+    background: linear-gradient(135deg, #8c6fb8 0%, #7ba87b 50%, #c4a07a 100%);
     color: white;
     border: none;
     padding: 15px;
@@ -257,14 +257,14 @@ body {
     font-weight: 900;
     font-size: 17px;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    box-shadow: 0 6px 20px rgba(255, 141, 199, 0.3);
+    box-shadow: 0 6px 20px rgba(125, 91, 166, 0.3);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .add-to-cart:hover {
     transform: translateY(-3px);
-    box-shadow: 0 12px 35px rgba(255, 141, 199, 0.5);
+    box-shadow: 0 12px 35px rgba(125, 91, 166, 0.5);
 }
 
 /* SCROLL PERSONALIZADO */
@@ -273,17 +273,17 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: #ffe4f0;
+    background: #f0ead6;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(135deg, #ff8dc7 0%, #ffb3d9 100%);
+    background: linear-gradient(135deg, #8c6fb8 0%, #7ba87b 100%);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(135deg, #ff6bb3 0%, #ff8dc7 100%);
+    background: linear-gradient(135deg, #7d5ba6 0%, #6fa86f 100%);
 }
 
 /* Estilos del modal del carrito */
@@ -356,7 +356,7 @@ body {
 }
 
 .qty-btn {
-    background-color: #ff6bb3;
+    background-color: #7d5ba6;
     color: white;
     border: none;
     padding: 5px 10px;
@@ -372,12 +372,12 @@ body {
 .cart-total {
     font-size: 18px;
     font-weight: bold;
-    color: #ff6bb3;
+    color: #7d5ba6;
     margin-top: 15px;
 }
 
 .checkout-btn {
-    background-color: #ff6bb3;
+    background-color: #7d5ba6;
     color: white;
     border: none;
     padding: 12px;
@@ -388,7 +388,7 @@ body {
 }
 
 .checkout-btn:hover {
-    background-color: #ff4081;
+    background-color: #6f4d99;
 }
 
 /* Animación de deslizamiento del carrito */
