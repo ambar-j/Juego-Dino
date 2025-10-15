@@ -401,7 +401,7 @@ body {
     }
 }
 
-#pie {
+.pie {
     text-align: center;
     background: linear-gradient(135deg, #9b7ec4 0%, #a8c9a3 50%, #d4b896 100%) !important;
     padding: 20px 0;
